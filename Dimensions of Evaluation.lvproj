@@ -14,6 +14,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="LabVIEW and Instrument Automation" Type="Folder"/>
 		<Item Name="UI and Visualization" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="00 - Simplest VI.vi" Type="VI" URL="../Evaluate LabVIEW/00 - Simplest VI.vi"/>
@@ -58,20 +59,35 @@
 			<Item Name="01 - PXI Modular Instruments.vi" Type="VI" URL="../Evaluate LabVIEW/01 - PXI Modular Instruments.vi"/>
 			<Item Name="02 - 3rd Party Drivers.vi" Type="VI" URL="../Evaluate LabVIEW/02 - 3rd Party Drivers.vi"/>
 		</Item>
-		<Item Name="Dynamic Execution" Type="Folder"/>
-		<Item Name="Event Driven Programs" Type="Folder"/>
-		<Item Name="EXE Application Building" Type="Folder"/>
+		<Item Name="Processing Libraries" Type="Folder">
+			<Item Name="00 - Signal and Engineering Data Structures.vi" Type="VI" URL="../Evaluate LabVIEW/00 - Signal and Engineering Data Structures.vi"/>
+			<Item Name="01 - Varied Math Libraries.vi" Type="VI" URL="../Evaluate LabVIEW/01 - Varied Math Libraries.vi"/>
+			<Item Name="02 - Basic and Advanced DSP.vi" Type="VI" URL="../Evaluate LabVIEW/02 - Basic and Advanced DSP.vi"/>
+			<Item Name="03 - Real-Time and FPGA.vi" Type="VI" URL="../Evaluate LabVIEW/03 - Real-Time and FPGA.vi"/>
+			<Item Name="04 - Application of DSP.vi" Type="VI" URL="../Evaluate LabVIEW/04 - Application of DSP.vi"/>
+		</Item>
 		<Item Name="Parallel Dimensions" Type="Folder"/>
-		<Item Name="Processing Libraries" Type="Folder"/>
+		<Item Name="Event Driven Programs" Type="Folder"/>
+		<Item Name="Dynamic Execution" Type="Folder"/>
+		<Item Name="EXE Application Building" Type="Folder"/>
 		<Item Name="Challenges - Euler Project" Type="Folder">
 			<Item Name="Euler 001.vi" Type="VI" URL="../Evaluate LabVIEW/Euler 001.vi"/>
 			<Item Name="Euler 002.vi" Type="VI" URL="../Evaluate LabVIEW/Euler 002.vi"/>
 			<Item Name="Euler 003.vi" Type="VI" URL="../Evaluate LabVIEW/Euler 003.vi"/>
 			<Item Name="Euler 004.vi" Type="VI" URL="../Evaluate LabVIEW/Euler 004.vi"/>
+			<Item Name="Euler 005.vi" Type="VI" URL="../Evaluate LabVIEW/Euler 005.vi"/>
 		</Item>
 		<Item Name="VirtualGuide" Type="Folder">
 			<Item Name="WebVideoGuide.vi" Type="VI" URL="../Evaluate LabVIEW/WebVideoGuide.vi"/>
 		</Item>
+		<Item Name="HH" Type="Folder">
+			<Item Name="Calculator.vi" Type="VI" URL="../Evaluate LabVIEW/HH/Calculator.vi"/>
+			<Item Name="Digits.ctl" Type="VI" URL="../Evaluate LabVIEW/HH/Digits.ctl"/>
+			<Item Name="Operators.ctl" Type="VI" URL="../Evaluate LabVIEW/HH/Operators.ctl"/>
+			<Item Name="Evaluate Operators.vi" Type="VI" URL="../Evaluate LabVIEW/HH/Evaluate Operators.vi"/>
+			<Item Name="Operator.ctl" Type="VI" URL="../Evaluate LabVIEW/HH/Operator.ctl"/>
+		</Item>
+		<Item Name="Angry Eagles.vi" Type="VI" URL="../../../Users/nkirchne/Downloads/Angry Eagles Source Distribution/Angry Eagles Source Distribution/Angry Eagles.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
