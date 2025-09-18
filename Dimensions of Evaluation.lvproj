@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="21008000">
-	<Property Name="NI.LV.All.SaveVersion" Type="Str">21.0</Property>
+<Project Type="Project" LVVersion="24008000">
+	<Property Name="NI.LV.All.SaveVersion" Type="Str">24.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
@@ -44,10 +44,11 @@
 			<Item Name="02 - Calling C Cpp and CLI.vi" Type="VI" URL="../Evaluate LabVIEW/02 - Calling C Cpp and CLI.vi"/>
 			<Item Name="03 - Calling MATLAB.vi" Type="VI" URL="../Evaluate LabVIEW/03 - Calling MATLAB.vi"/>
 			<Item Name="04 - Exceedingly Impressive Multi-Language Interaction.vi" Type="VI" URL="../Evaluate LabVIEW/04 - Exceedingly Impressive Multi-Language Interaction.vi"/>
+			<Item Name="PROCESS DATA WHEN ACQ COMPLETE AS FILE WATCHER.vi" Type="VI" URL="../../../Users/nkirchne/Documents/~SANDBOX/Thermal Cam Heat Seek/PROCESS DATA WHEN ACQ COMPLETE AS FILE WATCHER.vi"/>
 		</Item>
 		<Item Name="Debugging" Type="Folder">
 			<Item Name="Custom Probes" Type="Folder">
-				<Item Name="Colormap from tuple array.vi" Type="VI" URL="../Evaluate LabVIEW/Probes/Colormap from tuple array.vi"/>
+				<Item Name="Colormap from tuple array.vi" Type="VI" URL="../../../Users/nkirchne/Documents/LabVIEW Data/Probes/Colormap from tuple array.vi"/>
 			</Item>
 			<Item Name="00 - Simple Debugging.vi" Type="VI" URL="../Evaluate LabVIEW/00 - Simple Debugging.vi"/>
 			<Item Name="01 - Custom Debugging.vi" Type="VI" URL="../Evaluate LabVIEW/01 - Custom Debugging.vi"/>
@@ -77,9 +78,6 @@
 			<Item Name="Euler 004.vi" Type="VI" URL="../Evaluate LabVIEW/Euler 004.vi"/>
 			<Item Name="Euler 005.vi" Type="VI" URL="../Evaluate LabVIEW/Euler 005.vi"/>
 		</Item>
-		<Item Name="VirtualGuide" Type="Folder">
-			<Item Name="WebVideoGuide.vi" Type="VI" URL="../Evaluate LabVIEW/WebVideoGuide.vi"/>
-		</Item>
 		<Item Name="HH" Type="Folder">
 			<Item Name="Calculator.vi" Type="VI" URL="../Evaluate LabVIEW/HH/Calculator.vi"/>
 			<Item Name="Digits.ctl" Type="VI" URL="../Evaluate LabVIEW/HH/Digits.ctl"/>
@@ -87,7 +85,9 @@
 			<Item Name="Evaluate Operators.vi" Type="VI" URL="../Evaluate LabVIEW/HH/Evaluate Operators.vi"/>
 			<Item Name="Operator.ctl" Type="VI" URL="../Evaluate LabVIEW/HH/Operator.ctl"/>
 		</Item>
-		<Item Name="Angry Eagles.vi" Type="VI" URL="../../../Users/nkirchne/Downloads/Angry Eagles Source Distribution/Angry Eagles Source Distribution/Angry Eagles.vi"/>
+		<Item Name="VirtualGuide" Type="Folder">
+			<Item Name="WebVideoGuide.vi" Type="VI" URL="../Evaluate LabVIEW/WebVideoGuide.vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
