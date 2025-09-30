@@ -18,8 +18,8 @@
 			<Item Name="00 - Simplest VI.vi" Type="VI" URL="../Evaluate LabVIEW/00 - Simplest VI.vi"/>
 			<Item Name="01 - Acquire Analyze Present.vi" Type="VI" URL="../Evaluate LabVIEW/01 - Acquire Analyze Present.vi"/>
 			<Item Name="02 - Programming Structures.vi" Type="VI" URL="../Evaluate LabVIEW/02 - Programming Structures.vi"/>
+			<Item Name="03 - VI Tree.vi" Type="VI" URL="../Evaluate LabVIEW/03 - VI Tree.vi"/>
 		</Item>
-		<Item Name="LabVIEW and Instrument Automation" Type="Folder"/>
 		<Item Name="UI and Visualization" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="01 - Simple UI.vi" Type="VI" URL="../Evaluate LabVIEW/01 - Simple UI.vi"/>
@@ -52,7 +52,7 @@
 		</Item>
 		<Item Name="Debugging" Type="Folder">
 			<Item Name="Custom Probes" Type="Folder">
-				<Item Name="Colormap from tuple array.vi" Type="VI" URL="../../../Users/nkirchne/Documents/LabVIEW Data/Probes/Colormap from tuple array.vi"/>
+				<Item Name="Colormap from tuple array.vi" Type="VI" URL="../Evaluate LabVIEW/Probes/Colormap from tuple array.vi"/>
 			</Item>
 			<Item Name="00 - Simple Debugging.vi" Type="VI" URL="../Evaluate LabVIEW/00 - Simple Debugging.vi"/>
 			<Item Name="01 - Custom Debugging.vi" Type="VI" URL="../Evaluate LabVIEW/01 - Custom Debugging.vi"/>
@@ -63,6 +63,7 @@
 			<Item Name="00 - DAQmx IO.vi" Type="VI" URL="../Evaluate LabVIEW/00 - DAQmx IO.vi"/>
 			<Item Name="01 - PXI Modular Instruments.vi" Type="VI" URL="../Evaluate LabVIEW/01 - PXI Modular Instruments.vi"/>
 			<Item Name="02 - 3rd Party Drivers.vi" Type="VI" URL="../Evaluate LabVIEW/02 - 3rd Party Drivers.vi"/>
+			<Item Name="Agilent 34401.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 34401/Agilent 34401.lvlib"/>
 		</Item>
 		<Item Name="Processing Libraries" Type="Folder">
 			<Item Name="00 - Signal and Engineering Data Structures.vi" Type="VI" URL="../Evaluate LabVIEW/00 - Signal and Engineering Data Structures.vi"/>
@@ -92,13 +93,6 @@
 			<Item Name="Evaluate Operators.vi" Type="VI" URL="../Evaluate LabVIEW/HH/Evaluate Operators.vi"/>
 			<Item Name="Operator.ctl" Type="VI" URL="../Evaluate LabVIEW/HH/Operator.ctl"/>
 		</Item>
-		<Item Name="Arrow Templates" Type="Folder">
-			<Item Name="UpLeftArrow.vi" Type="VI" URL="../Script BD FP Arrows/UpLeftArrow.vi"/>
-			<Item Name="DownLeftArrow.vi" Type="VI" URL="../Script BD FP Arrows/DownLeftArrow.vi"/>
-			<Item Name="DownRightArrow.vi" Type="VI" URL="../Script BD FP Arrows/DownRightArrow.vi"/>
-			<Item Name="UpRightArrow.vi" Type="VI" URL="../Script BD FP Arrows/UpRightArrow.vi"/>
-		</Item>
-		<Item Name="00 - Simplest VI(showcase).vi" Type="VI" URL="../Evaluate LabVIEW/00 - Simplest VI(showcase).vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Source Distribution" Type="Source Distribution">
@@ -139,10 +133,10 @@
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Arrow Templates</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Dependencies/Arrow Direction.ctl</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
 			</Item>
