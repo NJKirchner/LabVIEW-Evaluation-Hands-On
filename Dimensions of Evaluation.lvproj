@@ -76,9 +76,6 @@
 		<Item Name="Event Driven Programs" Type="Folder"/>
 		<Item Name="Dynamic Execution" Type="Folder"/>
 		<Item Name="EXE Application Building" Type="Folder"/>
-		<Item Name="VirtualGuide" Type="Folder">
-			<Item Name="WebVideoGuide.vi" Type="VI" URL="../Evaluate LabVIEW/WebVideoGuide.vi"/>
-		</Item>
 		<Item Name="Challenges - Euler Project" Type="Folder">
 			<Item Name="Euler 001.vi" Type="VI" URL="../Evaluate LabVIEW/Euler 001.vi"/>
 			<Item Name="Euler 002.vi" Type="VI" URL="../Evaluate LabVIEW/Euler 002.vi"/>
