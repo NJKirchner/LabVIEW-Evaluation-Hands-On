@@ -17,6 +17,7 @@
 		<Item Name="Simplicity and Approachability" Type="Folder">
 			<Item Name="00 - Simplest VI.vi" Type="VI" URL="../Evaluate LabVIEW/00 - Simplest VI.vi"/>
 			<Item Name="01 - Acquire Analyze Present.vi" Type="VI" URL="../Evaluate LabVIEW/01 - Acquire Analyze Present.vi"/>
+			<Item Name="01 - Acquire Analyze Present (Sequential).vi" Type="VI" URL="../Evaluate LabVIEW/01 - Acquire Analyze Present (Sequential).vi"/>
 			<Item Name="02 - Programming Structures.vi" Type="VI" URL="../Evaluate LabVIEW/02 - Programming Structures.vi"/>
 			<Item Name="03 - VI Tree.vi" Type="VI" URL="../Evaluate LabVIEW/03 - VI Tree.vi"/>
 		</Item>
