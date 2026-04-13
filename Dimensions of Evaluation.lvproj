@@ -49,11 +49,10 @@
 			<Item Name="01 - Calling NET Simple.vi" Type="VI" URL="../Evaluate LabVIEW/01 - Calling NET Simple.vi"/>
 			<Item Name="02 - Calling C Cpp and CLI.vi" Type="VI" URL="../Evaluate LabVIEW/02 - Calling C Cpp and CLI.vi"/>
 			<Item Name="03 - Calling MATLAB.vi" Type="VI" URL="../Evaluate LabVIEW/03 - Calling MATLAB.vi"/>
-			<Item Name="04 - Exceedingly Impressive Multi-Language Interaction.vi" Type="VI" URL="../Evaluate LabVIEW/04 - Exceedingly Impressive Multi-Language Interaction.vi"/>
 		</Item>
 		<Item Name="Debugging" Type="Folder">
 			<Item Name="Custom Probes" Type="Folder">
-				<Item Name="Colormap from tuple array.vi" Type="VI" URL="../Evaluate LabVIEW/Probes/Colormap from tuple array.vi"/>
+				<Item Name="Colormap from tuple array.vi" Type="VI" URL="../../../Users/nkirchne/Documents/LabVIEW Data/Probes/Colormap from tuple array.vi"/>
 			</Item>
 			<Item Name="00 - Simple Debugging.vi" Type="VI" URL="../Evaluate LabVIEW/00 - Simple Debugging.vi"/>
 			<Item Name="01 - Custom Debugging.vi" Type="VI" URL="../Evaluate LabVIEW/01 - Custom Debugging.vi"/>
@@ -64,6 +63,7 @@
 			<Item Name="00 - DAQmx IO.vi" Type="VI" URL="../Evaluate LabVIEW/00 - DAQmx IO.vi"/>
 			<Item Name="01 - PXI Modular Instruments.vi" Type="VI" URL="../Evaluate LabVIEW/01 - PXI Modular Instruments.vi"/>
 			<Item Name="02 - 3rd Party Drivers.vi" Type="VI" URL="../Evaluate LabVIEW/02 - 3rd Party Drivers.vi"/>
+			<Item Name="03 - RT FPGA.vi" Type="VI" URL="../../../Users/nkirchne/Downloads/WS2811 MaRIO myRIO LED Control/MyRIO Basics/03 - RT FPGA.vi"/>
 			<Item Name="Agilent 34401.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Agilent 34401/Agilent 34401.lvlib"/>
 		</Item>
 		<Item Name="Processing Libraries" Type="Folder">
@@ -91,6 +91,7 @@
 			<Item Name="Evaluate Operators.vi" Type="VI" URL="../Evaluate LabVIEW/HH/Evaluate Operators.vi"/>
 			<Item Name="Operator.ctl" Type="VI" URL="../Evaluate LabVIEW/HH/Operator.ctl"/>
 		</Item>
+		<Item Name="Untitled 1.vi" Type="VI" URL="../../../Users/nkirchne/Documents/~SANDBOX/Untitled 1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Source Distribution" Type="Source Distribution">
@@ -125,16 +126,16 @@
 				<Property Name="Source[0].itemID" Type="Str">{2C5B2393-BDC0-45F9-9E46-0A7788B93E96}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
+				<Property Name="Source[1].itemID" Type="Ref">/</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
+				<Property Name="Source[2].itemID" Type="Ref">/</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
+				<Property Name="Source[3].itemID" Type="Ref">/</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
 			</Item>
