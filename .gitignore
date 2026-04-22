@@ -5,3 +5,4 @@
 *.lvlps
 .cache/
 Evaluate LabVIEW/__pycache__
+*.UserState
